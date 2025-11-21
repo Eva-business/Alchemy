@@ -1,0 +1,580 @@
+{
+  "elements": [
+    {
+      "id": "air",
+      "name": "air",
+      "recipes": []
+    },
+    {
+      "id": "barn",
+      "name": "barn",
+      "recipes": [
+        [
+          "house",
+          "cow"
+        ]
+      ]
+    },
+    {
+      "id": "beach",
+      "name": "beach",
+      "recipes": [
+        [
+          "water",
+          "sand"
+        ],
+        [
+          "sand",
+          "sea"
+        ]
+      ]
+    },
+    {
+      "id": "bird",
+      "name": "bird",
+      "recipes": [
+        [
+          "sky",
+          "egg"
+        ]
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "bread",
+      "recipes": [
+        [
+          "fire",
+          "flour"
+        ]
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "cheese",
+      "recipes": [
+        [
+          "time",
+          "milk"
+        ]
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "chicken",
+      "recipes": [
+        [
+          "bird",
+          "livestock"
+        ]
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "cloud",
+      "recipes": [
+        [
+          "air",
+          "steam"
+        ]
+      ]
+    },
+    {
+      "id": "cow",
+      "name": "cow",
+      "recipes": [
+        [
+          "livestock",
+          "grass"
+        ]
+      ]
+    },
+    {
+      "id": "dough",
+      "name": "dough",
+      "recipes": [
+        [
+          "water",
+          "flour"
+        ]
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "recipes": []
+    },
+    {
+      "id": "earthquake",
+      "name": "earthquake",
+      "recipes": [
+        [
+          "energy",
+          "earth"
+        ]
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "recipes": [
+        [
+          "stone",
+          "life"
+        ]
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "energy",
+      "recipes": [
+        [
+          "fire",
+          "air"
+        ]
+      ]
+    },
+    {
+      "id": "farmer",
+      "name": "farmer",
+      "recipes": [
+        [
+          "plant",
+          "human"
+        ]
+      ]
+    },
+    {
+      "id": "field",
+      "name": "field",
+      "recipes": [
+        [
+          "earth",
+          "tool"
+        ]
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "recipes": []
+    },
+    {
+      "id": "flour",
+      "name": "flour",
+      "recipes": [
+        [
+          "windmill",
+          "wheat"
+        ]
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "forest",
+      "recipes": [
+        [
+          "tree",
+          "tree"
+        ]
+      ]
+    },
+    {
+      "id": "glass",
+      "name": "glass",
+      "recipes": [
+        [
+          "fire",
+          "sand"
+        ]
+      ]
+    },
+    {
+      "id": "grass",
+      "name": "grass",
+      "recipes": [
+        [
+          "earth",
+          "plant"
+        ]
+      ]
+    },
+    {
+      "id": "house",
+      "name": "house",
+      "recipes": [
+        [
+          "human",
+          "wood"
+        ]
+      ]
+    },
+    {
+      "id": "human",
+      "name": "human",
+      "recipes": [
+        [
+          "earth",
+          "life"
+        ]
+      ]
+    },
+    {
+      "id": "isle",
+      "name": "isle",
+      "recipes": [
+        [
+          "volcano",
+          "ocean"
+        ]
+      ]
+    },
+    {
+      "id": "lava",
+      "name": "lava",
+      "recipes": [
+        [
+          "fire",
+          "earth"
+        ]
+      ]
+    },
+    {
+      "id": "life",
+      "name": "life",
+      "recipes": [
+        [
+          "energy",
+          "swamp"
+        ]
+      ]
+    },
+    {
+      "id": "livestock",
+      "name": "livestock",
+      "recipes": [
+        [
+          "wild_animal",
+          "human"
+        ]
+      ]
+    },
+    {
+      "id": "metal",
+      "name": "metal",
+      "recipes": [
+        [
+          "fire",
+          "stone"
+        ]
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "recipes": [
+        [
+          "farmer",
+          "cow"
+        ]
+      ]
+    },
+    {
+      "id": "mountain",
+      "name": "mountain",
+      "recipes": [
+        [
+          "earthquake",
+          "earth"
+        ]
+      ]
+    },
+    {
+      "id": "mud",
+      "name": "mud",
+      "recipes": [
+        [
+          "water",
+          "earth"
+        ]
+      ]
+    },
+    {
+      "id": "ocean",
+      "name": "ocean",
+      "recipes": [
+        [
+          "water",
+          "sea"
+        ],
+        [
+          "sea",
+          "sea"
+        ]
+      ]
+    },
+    {
+      "id": "plankton",
+      "name": "plankton",
+      "recipes": [
+        [
+          "water",
+          "life"
+        ]
+      ]
+    },
+    {
+      "id": "plant",
+      "name": "plant",
+      "recipes": [
+        [
+          "rain",
+          "earth"
+        ]
+      ]
+    },
+    {
+      "id": "pressure",
+      "name": "pressure",
+      "recipes": [
+        [
+          "earth",
+          "earth"
+        ],
+        [
+          "air",
+          "air"
+        ]
+      ]
+    },
+    {
+      "id": "rain",
+      "name": "rain",
+      "recipes": [
+        [
+          "water",
+          "air"
+        ]
+      ]
+    },
+    {
+      "id": "river",
+      "name": "river",
+      "recipes": [
+        [
+          "water",
+          "mountain"
+        ]
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "sand",
+      "recipes": [
+        [
+          "stone",
+          "air"
+        ]
+      ]
+    },
+    {
+      "id": "sea",
+      "name": "sea",
+      "recipes": [
+        [
+          "water",
+          "water"
+        ]
+      ]
+    },
+    {
+      "id": "seaweed",
+      "name": "seaweed",
+      "recipes": [
+        [
+          "plant",
+          "ocean"
+        ]
+      ]
+    },
+    {
+      "id": "sheep",
+      "name": "sheep",
+      "recipes": [
+        [
+          "cloud",
+          "livestock"
+        ]
+      ]
+    },
+    {
+      "id": "sky",
+      "name": "sky",
+      "recipes": [
+        [
+          "cloud",
+          "air"
+        ]
+      ]
+    },
+    {
+      "id": "steam",
+      "name": "steam",
+      "recipes": [
+        [
+          "water",
+          "fire"
+        ],
+        [
+          "water",
+          "energy"
+        ]
+      ]
+    },
+    {
+      "id": "stone",
+      "name": "stone",
+      "recipes": [
+        [
+          "air",
+          "lava"
+        ]
+      ]
+    },
+    {
+      "id": "sun",
+      "name": "sun",
+      "recipes": [
+        [
+          "fire",
+          "sky"
+        ]
+      ]
+    },
+    {
+      "id": "swamp",
+      "name": "swamp",
+      "recipes": [
+        [
+          "mud",
+          "plant"
+        ]
+      ]
+    },
+    {
+      "id": "time",
+      "name": "time",
+      "recipes": [
+        [
+          "sand",
+          "glass"
+        ]
+      ]
+    },
+    {
+      "id": "tool",
+      "name": "tool",
+      "recipes": [
+        [
+          "metal",
+          "human"
+        ]
+      ]
+    },
+    {
+      "id": "tree",
+      "name": "tree",
+      "recipes": [
+        [
+          "plant",
+          "time"
+        ]
+      ]
+    },
+    {
+      "id": "village",
+      "name": "village",
+      "recipes": [
+        [
+          "house",
+          "house"
+        ]
+      ]
+    },
+    {
+      "id": "volcano",
+      "name": "volcano",
+      "recipes": [
+        [
+          "earth",
+          "lava"
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "recipes": []
+    },
+    {
+      "id": "wheat",
+      "name": "wheat",
+      "recipes": [
+        [
+          "field",
+          "farmer"
+        ]
+      ]
+    },
+    {
+      "id": "wheel",
+      "name": "wheel",
+      "recipes": [
+        [
+          "tool",
+          "wood"
+        ]
+      ]
+    },
+    {
+      "id": "wild_animal",
+      "name": "wild_animal",
+      "recipes": [
+        [
+          "life",
+          "forest"
+        ]
+      ]
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "recipes": [
+        [
+          "air",
+          "pressure"
+        ]
+      ]
+    },
+    {
+      "id": "windmill",
+      "name": "windmill",
+      "recipes": [
+        [
+          "wind",
+          "wheel"
+        ]
+      ]
+    },
+    {
+      "id": "wood",
+      "name": "wood",
+      "recipes": [
+        [
+          "tree",
+          "tool"
+        ]
+      ]
+    }
+  ]
+}

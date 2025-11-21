@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  Alchemy
-//
-//  Created by user13 on 2025/11/19.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var gameState = GameState() // 保持 instance 的地方
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            MainGameView()
+                .tabItem { Label("Game", systemImage: "flame.fill") }
+            EncyclopediaView()
+                .tabItem { Label("Encyclopedia", systemImage: "book.fill") }
+            SettingsView()
+                .tabItem { Label("Settings", systemImage: "gearshape.fill") }
         }
-        .padding()
+        .environment(gameState) // <- 注入 Observation 型別到 Environment
     }
 }
 
